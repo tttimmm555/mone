@@ -1,0 +1,11 @@
+import random
+
+# Задание диапазона для генерации случайных чисел
+lower_bound = 1
+upper_bound = 100
+
+# Генерация случайного целого числа в заданном диапазоне
+random_number = random.randint(lower_bound, upper_bound)
+
+# Вывод случайного числа на экран
+print("Случайное число:", random_number)
